@@ -1,2 +1,6 @@
-package com.woo00oo.book.springboot.domain.posts;public class PostsRepository {
+package com.woo00oo.book.springboot.domain.posts;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PostsRepository extends JpaRepository<Posts,Long> {
 }
